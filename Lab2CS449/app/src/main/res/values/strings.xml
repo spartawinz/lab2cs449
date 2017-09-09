@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Umpire Buddy</string>
+    <string name="dialog_out">Player is out!</string>
+    <string name="dialog_walk">Player is walked!</string>
+    <string name="ok">OK</string>
+    <string name="Strike_label">Strike</string>
+    <string name="Ball_label">Ball</string>
+
+    <string name="reset_title">Reset</string>
+    <string name="about_title">About</string>
+
+    <string name="about_text">Umpire Buddy by Travis Pratt</string>
+
+    <string name="pref_tts">tts</string>
+    <string name="pref_tts_summary">Text to Speech</string>
+    <string name="inline_prefs">General</string>
+    <string name="title_intent_preference">settings</string>
+    <string name="summary_intent_preference">settings for the app</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/title_intent_preference"
+    android:summary="@string/summary_intent_preference">
+
+    <intent android:action="android.intent.action.VIEW"
+        android:data="http://developer.android.com" />
+    <PreferenceCategory
+        android:title="@string/inline_prefs">
+        <CheckBoxPreference
+            android:key="pref_tts"
+            android:title="@string/pref_tts"
+            android:summary="@string/pref_tts_summary"
+            android:defaultValue="false"
+            android:background="@color/colorWhite"/>
+    </PreferenceCategory>
+    <Preference
+        android:title="Exit"
+        android:key="pref_exit"
+        android:summary="Save Changes"
+        android:background="@color/colorWhite"
+        />
+
+</PreferenceScreen>
